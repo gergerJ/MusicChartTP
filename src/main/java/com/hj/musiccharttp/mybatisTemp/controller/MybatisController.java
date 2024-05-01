@@ -15,7 +15,7 @@ public class MybatisController {
 //     JAVA 를 사용한 조회 (XML 미사용)
     @GetMapping("/")
     public String mybatisTemp(){
-
+//pullRequest 생성 테스트
         System.out.println("hy 경로의 신규 프로젝트 mybatistTemp, JAVA를 사용한 조회 실행 ");
         int result = mapper.getBoardListCnt();
 
