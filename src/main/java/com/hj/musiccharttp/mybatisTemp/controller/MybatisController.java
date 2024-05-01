@@ -16,6 +16,8 @@ public class MybatisController {
     @GetMapping("/")
     public String mybatisTemp(){
 
+        //testHy1 Branch 추가 내용 커밋
+
         System.out.println("hy 경로의 신규 프로젝트 mybatistTemp, JAVA를 사용한 조회 실행 ");
         int result = mapper.getBoardListCnt();
 
