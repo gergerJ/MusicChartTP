@@ -6,7 +6,7 @@
     <script async src="${pageContext.request.contextPath}/webjars/jquery/3.6.0/jquery.min.js"></script>
     <link href="${pageContext.request.contextPath}/webjars/bootstrap/4.6.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="bootstrap/assets/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="bootstrap/assets/favicon.ico"/>
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
