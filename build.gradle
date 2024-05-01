@@ -25,6 +25,8 @@ dependencies {
 //    DB 연동 설정
 //    implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'
     implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+    // devtool restart 추가
+    developmentOnly 'org.springframework.boot:spring-boot-devtools'
     runtimeOnly 'com.oracle.database.jdbc:ojdbc8'  // 버전 호환성을 위해 8로 다운 현재 사용 oracle 버전 12.2 버전
 
 //    Mybatis 의존성 설정
