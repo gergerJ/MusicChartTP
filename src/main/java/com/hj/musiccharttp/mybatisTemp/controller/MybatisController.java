@@ -2,10 +2,11 @@ package com.hj.musiccharttp.mybatisTemp.controller;
 
 import com.hj.musiccharttp.mybatisTemp.mapper.MybatisMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+@Controller
 //@MapperScan
 public class MybatisController {
 
@@ -17,9 +18,8 @@ public class MybatisController {
     public String mybatisTemp(){
 
         System.out.println("hy 경로의 신규 프로젝트 mybatistTemp, JAVA를 사용한 조회 실행 ");
-        int result = mapper.getBoardListCnt();
 
-        return result +"명";
+        return "index";
     }
 
     @GetMapping("/board")

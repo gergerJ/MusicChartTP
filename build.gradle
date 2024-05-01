@@ -33,6 +33,13 @@ dependencies {
 
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter-test:3.0.3'
+    // jsp 페이지 라이브러리
+    implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'
+    // jquery 라이브러리
+    implementation group: 'org.webjars', name: 'jquery', version: '3.6.0'
+    // css bootstram 라이브러리
+    implementation group: 'org.webjars', name: 'bootstrap', version: '4.6.0'
+
 }
 
 tasks.named('bootBuildImage') {
