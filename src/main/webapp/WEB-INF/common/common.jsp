@@ -14,6 +14,8 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="bootstrap/css/styles.css" rel="stylesheet" />
+    <!-- Core theme javascript js (script.js)-->
+    <script src="bootstrap/js/scripts.js"> </script>
 </head>
 <body>
 
